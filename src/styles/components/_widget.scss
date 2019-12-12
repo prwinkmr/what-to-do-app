@@ -1,0 +1,25 @@
+.widget {
+	background-color: white;
+	margin-bottom: $xl-size;
+}
+
+.widget-header {
+	background-color: darken(white, 6%);
+	color: $dark-grey;
+	padding: $m-size;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 0.1rem solid $light-grey;
+}
+
+.widget-header__title {
+	margin: 0;
+}
+
+.widget__message {
+	color: $dark-grey;
+	margin: 0;
+	padding: $l-size;
+	text-align: center;
+	border-bottom: 0.1rem solid $light-grey;
+}

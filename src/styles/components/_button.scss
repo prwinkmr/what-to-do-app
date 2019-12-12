@@ -1,0 +1,50 @@
+.big-button {
+	background: $light-red;
+	border: none;
+	border-bottom: 0.2rem solid darken($light-red, 5%);
+	color: white;
+	font-size: $l-size;
+	font-weight: bold;
+	margin-bottom: $xl-size;
+	padding: 2.4rem;
+	width: 100%;
+	&:hover {
+		background: darken($light-red, 5%);
+	}
+}
+
+.big-button:disabled {
+	background: lighten($light-red, 5%);
+	cursor: not-allowed;
+	border: none;
+}
+
+.button {
+	background: $light-red;
+	border: none;
+	border-bottom: 0.1rem solid darken($light-red, 5%);
+	color: white;
+	font-weight: 500;
+	padding: $s-size;
+	&:hover {
+		background: darken($light-red, 5%);
+	}
+}
+
+.button--link {
+	background: none;
+	border: none;
+	color: lighten($dark-grey, 5%);
+	padding: 0;
+	&:hover {
+		color: darken($dark-grey, 15%);
+		background: none;	
+	}
+}
+
+@media (max-width: $mobile-breakpoint) {
+	.big-button {
+		font-size: $m-size;
+		margin-bottom: $m-size;
+	}
+}

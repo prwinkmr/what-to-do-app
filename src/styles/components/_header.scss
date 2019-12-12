@@ -1,0 +1,23 @@
+.header {
+	background-color: #fff;
+	color: #645a53;
+	margin-bottom: $xl-size;
+	padding: $s-size 0;
+}
+
+.header__title {
+	font-size: $l-size;
+	margin: 0;
+}
+.header__subtitle {
+	color: $dark-blue;
+	font-size: $m-size;
+	font-weight: 500;
+	margin: 0;
+ }
+
+ @media (max-width: 45rem) {
+ 	.header {
+ 		margin-bottom: $m-size;
+ 	}
+ }
